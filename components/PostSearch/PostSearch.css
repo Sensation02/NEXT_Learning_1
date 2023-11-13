@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.search__input {
+  width: 100%;
+  max-width: 30rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+.search__input:focus {
+  border-color: #3e3e3e;
+}
+.search__button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+.search__button:hover {
+  background-color: #6a6a6a;
+}

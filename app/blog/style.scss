@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+.loading {
+  margin: 4rem auto;
+  animation: spinner-loader 1s linear infinite;
+  border: 0.2rem solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 0.2rem solid #515151;
+  height: 2rem;
+  width: 2rem;
+}
+
+@keyframes spinner-loader {
+  to {
+    transform: rotate(360deg);
+  }
+}

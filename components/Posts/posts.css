@@ -1,0 +1,26 @@
+.posts {
+  max-width: 800px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.posts .posts__item {
+  width: 100%;
+  margin: 0.1rem 0;
+}
+.posts .posts__item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.posts .posts__item .posts__link {
+  color: #515151;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  padding: 0.1rem;
+}
+.posts .posts__item .posts__link:hover {
+  color: #000;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
